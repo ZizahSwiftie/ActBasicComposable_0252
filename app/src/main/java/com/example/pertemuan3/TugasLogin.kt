@@ -50,6 +50,10 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 36.sp,
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = "Ini adalah halaman login, Swiftie",
+                color = Color.White
+            )
         }
     }
 }
