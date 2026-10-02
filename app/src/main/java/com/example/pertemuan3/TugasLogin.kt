@@ -54,6 +54,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 text = "Ini adalah halaman login, Swiftie",
                 color = Color.White
             )
+            Spacer(modifier = Modifier.height(24.dp))
+            Image(
+                painter = painterResource(id = R.drawable.foto_ts1),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(220.dp)
+                    .clip(CircleShape)
+                    .border(4.dp, Color.White, CircleShape)
+            )
         }
     }
 }
