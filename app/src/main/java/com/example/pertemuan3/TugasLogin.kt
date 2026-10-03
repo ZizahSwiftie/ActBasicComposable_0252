@@ -56,13 +56,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
             Spacer(modifier = Modifier.height(24.dp))
             Image(
-                painter = painterResource(id = R.drawable.foto_ts1),
+                painter = painterResource(id = R.drawable.foto_ts2),
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
-                    .size(220.dp)
+                    .size(120.dp)
                     .clip(CircleShape)
-                    .border(4.dp, Color.White, CircleShape)
+                    .border(3.dp, Color.White, CircleShape)
             )
             Spacer(modifier = Modifier.height(16.dp))
             Text(
