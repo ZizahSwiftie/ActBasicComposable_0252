@@ -64,6 +64,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .clip(CircleShape)
                     .border(4.dp, Color.White, CircleShape)
             )
+            Spacer(modifier = Modifier.height(16.dp))
+            Text(
+                text = "Nama",
+                color = Color(0xFFFFB6D9),
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
