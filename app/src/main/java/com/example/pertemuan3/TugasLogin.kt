@@ -82,6 +82,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
             )
+            Spacer(modifier = Modifier.height(24.dp))
+            Image(
+                painter = painterResource(id = R.drawable.foto_ts1),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(220.dp)
+                    .clip(CircleShape)
+                    .border(4.dp, Color.White, CircleShape)
+            )
 
         }
     }
