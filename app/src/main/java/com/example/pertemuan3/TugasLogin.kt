@@ -70,6 +70,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color(0xFFFFB6D9),
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = "Nur Azizah Ulinnuha",
+                color = Color.White,
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
