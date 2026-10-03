@@ -76,6 +76,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = "20240140252",
+                color = Color.White,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold
+            )
+
         }
     }
 }
